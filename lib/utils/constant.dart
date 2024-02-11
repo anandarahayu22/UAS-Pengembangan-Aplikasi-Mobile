@@ -1,0 +1,16 @@
+const sqfliteDatabaseName = 'cart.db';
+const sqfliteDatabaseVersion = 1;
+const String cartTable = 'cart';
+const String cartColumnId = 'id';
+const String cartColumnName = 'name';
+const String cartColumnQuantity = 'quantity';
+const String cartColumnPrice = 'price';
+const String cartColumnImage = 'image';
+const String cartColumSubtotalPerItem = 'subtotal';
+const String transactionTable = 'transactions';
+const String transactionColumnId = 'id';
+const String transactionColumnName = 'name';
+const String transactionColumnQuantity = 'quantity';
+const String transactionColumnPrice = 'price';
+const String transactionColumnImage = 'image';
+const String transactionColumSubtotalPerItem = 'subtotal';
